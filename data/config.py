@@ -5,7 +5,7 @@ from typing import Final
 load_dotenv()
 
 class TgKeys:
-    BOT_TOKEN: Final = environ.get('TOKEN', 'define me!')
+    TOKEN: Final = environ.get('TOKEN', 'define me!')
 
 # webhook settings
 WEBHOOK_HOST = 'https://your.domain'

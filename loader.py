@@ -8,6 +8,6 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
 logging.basicConfig(level=logging.INFO)
 
-bot = Bot(token=TgKeys.BOT_TOKEN, parse_mode=types.ParseMode.HTML)
+bot = Bot(token=TgKeys.TOKEN, parse_mode=types.ParseMode.HTML)
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
