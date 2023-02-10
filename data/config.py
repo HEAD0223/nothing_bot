@@ -1,10 +1,11 @@
 from os import environ
-
 from dotenv import load_dotenv
+from typing import Final
 
 load_dotenv()
 
-BOT_TOKEN = environ.get('BOT_TOKEN', 'define me!')
+class TgKeys:
+    BOT_TOKEN: Final = environ.get('TOKEN', 'define me!')
 
 # webhook settings
 WEBHOOK_HOST = 'https://your.domain'
