@@ -14,6 +14,7 @@ async def on_shutdown(dp):
 
 if __name__ == '__main__':
     import os
+    import logging
     from data import config
     from aiogram import executor
     from aiogram.dispatcher.webhook import SendMessage
