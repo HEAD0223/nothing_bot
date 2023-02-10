@@ -14,7 +14,7 @@ idna==3.4
 magic-filter==1.0.9
 multidict==6.0.4
 paypalrestsdk==1.13.1
-psycopg2==2.9.5
+psycopg2-binary==2.9.5
 pycparser==2.21
 pyOpenSSL==23.0.0
 python-dotenv==0.21.1
