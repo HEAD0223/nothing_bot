@@ -16,7 +16,6 @@ if __name__ == '__main__':
     import os
     from data import config
     from aiogram import executor
-    from aiogram.utils.executor import start_webhook
     from aiogram.dispatcher.webhook import SendMessage
     from handlers import dp
     from handlers.middlewares import ThrottlingMiddleware
