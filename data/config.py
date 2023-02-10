@@ -4,9 +4,6 @@ from typing import Final
 
 load_dotenv()
 
-# class TgKeys:
-#     TOKEN: Final = environ.get('TOKEN', 'define me!')
-
 TOKEN = str(os.getenv("TOKEN"))
 
 # webhook settings
