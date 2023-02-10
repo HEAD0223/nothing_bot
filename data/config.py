@@ -1,10 +1,10 @@
-import os
+from os import environ
 
 from dotenv import load_dotenv
 
 load_dotenv()
 
-BOT_TOKEN = str(os.getenv("BOT_TOKEN"))
+BOT_TOKEN = environ.get('BOT_TOKEN', 'define me!')
 
 # webhook settings
 WEBHOOK_HOST = 'https://your.domain'
